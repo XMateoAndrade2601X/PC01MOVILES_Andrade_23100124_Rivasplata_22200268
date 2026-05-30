@@ -1,0 +1,4 @@
+package com.example.pc01moviles_andrade_23100124_rivasplata_22200268.presentation.permisoubicacion
+
+class PermisoUbicacionScreen {
+}
