@@ -14,7 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.pc01moviles_andrade_23100124_rivasplata_22200268.navigation.AppNavGraph
 import com.example.pc01moviles_andrade_23100124_rivasplata_22200268.ui.theme.PC01MOVILES_Andrade_23100124_Rivasplata_22200268Theme
 
-
+// Integrantes
+// Alessandro Mateo Andrade Ortiz 23100124
+// Fatima Rivasplata Nuñez 22200268
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
