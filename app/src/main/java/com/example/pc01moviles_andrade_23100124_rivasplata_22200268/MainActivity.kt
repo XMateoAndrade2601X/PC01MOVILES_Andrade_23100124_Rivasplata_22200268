@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pc01moviles_andrade_23100124_rivasplata_22200268.ui.theme.PC01MOVILES_Andrade_23100124_Rivasplata_22200268Theme
 
+@Composable
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
