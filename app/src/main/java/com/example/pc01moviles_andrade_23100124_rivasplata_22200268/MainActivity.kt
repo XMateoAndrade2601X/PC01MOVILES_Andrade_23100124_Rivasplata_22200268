@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.pc01moviles_andrade_23100124_rivasplata_22200268.navigation.AppNavGraph
 import com.example.pc01moviles_andrade_23100124_rivasplata_22200268.ui.theme.PC01MOVILES_Andrade_23100124_Rivasplata_22200268Theme
 
 
@@ -20,12 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PC01MOVILES_Andrade_23100124_Rivasplata_22200268Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                AppNavGraph()
             }
         }
     }

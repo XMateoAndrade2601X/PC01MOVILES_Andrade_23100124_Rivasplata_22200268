@@ -88,7 +88,7 @@ fun CatalogoDestinosScreen() {
             ) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     Text(
-                        text = "📊 Resumen",
+                        text = " Resumen",
                         style = MaterialTheme.typography.titleMedium
                     )
                     Spacer(modifier = Modifier.height(8.dp))
@@ -137,11 +137,11 @@ fun DestinoCard(destino: Destination) {
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(
-                    text = "🌍 ${destino.pais}",
+                    text = " ${destino.pais}",
                     style = MaterialTheme.typography.bodyMedium
                 )
                 Text(
-                    text = "💵 S/. %.2f / día".format(destino.costoPromedio),
+                    text = " S/. %.2f / día".format(destino.costoPromedio),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.primary
                 )

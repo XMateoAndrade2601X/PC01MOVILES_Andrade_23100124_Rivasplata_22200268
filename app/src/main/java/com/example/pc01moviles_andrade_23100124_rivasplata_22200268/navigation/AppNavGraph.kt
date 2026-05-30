@@ -20,7 +20,7 @@ fun AppNavGraph() {
     ) {
         composable("home") {
             DrawerScaffold(navController) {
-                HomeScreen()
+                HomeScreen(navController)
             }
         }
         composable("calculadora") {
